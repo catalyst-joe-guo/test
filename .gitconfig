@@ -1,0 +1,13 @@
+[alias]
+    st = status -s
+    ci = commit -v
+    co = checkout
+    br = branch
+    last = log -1 HEAD
+	unstage = reset HEAD --
+[push]
+	default = simple
+[core]
+	editor = vim
+    ignorecase = false
+    autocrlf = true
